@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWorld</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#">
+                <img class="logo_PetWorld" alt="logo_image" src="./imgs/logo_PetWorld.png">
+            </a>
+            <div class="menu" onclick="pressMenu()"></div>
+            <ul class="menu_navigation">
+                <li class="li_menu"><a href="#">Home</a></li>
+                <li class="li_menu"><a href="#">About</a></li>
+                <li class="li_menu"><a href="#">Services</a></li>
+                <li class="li_menu"><a href="#">Products</a></li>
+                <li class="li_menu"><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <hr>
+        <div class="content">
+            <div class="infoBox">
+                <h2>Tudo que seu pet precisa <br>está <strong class="strong_word">aqui</strong> mesmo na<br> <span>Pet World!</span></h2>
+                <p class="info">Descubra o encanto da PetWorld, a loja suprema para os amantes de pets! Aqui, o seu companheiro de quatro patas é tratado como realeza. Nossa extensa seleção de produtos exclusivos, desde brinquedos até alimentos saudáveis e acessórios de última geração, garantem uma vida feliz e saudável para seu melhor amigo.<br><br> Nossos apaixonados especialistas estão sempre prontos para oferecer orientação personalizada, cuidadosamente adaptada às necessidades do seu pet. Além disso, você encontrará um ambiente acolhedor, repleto de energia positiva e uma atmosfera cativante. Entre na Pet World e faça parte dessa experiência inesquecível!</p>
+                <a href="#">
+                    <label>Saber mais</label>
+                    <img class="seta_icon" src="./imgs/seta_icon.png" alt="seta">
+                </a>
+            
+            </div>
+            <div class="imageSystem_div">
+                <div class="options_div">
+                    <ul class="options">
+                        <li class="list_animal" ><img id="dogIcon" onclick="alternaImg('./imgs/dog_image.png')" class="icon_animal" src="./imgs/dog_icon.png" alt="dog_icon"></li>
+                        <li class="list_animal" ><img id="catIcon" onclick="alternaImg('./imgs/cat_image.png')" class="icon_animal" src="./imgs/cat_icon.png" alt="cat_icon"></li>
+                        <li class="list_animal" ><img id="periquitoIcon" onclick="alternaImg('./imgs/periquito_image.png')" class="icon_animal" src="./imgs/periquito_icon.png" alt="periquito_icon"></li>
+                    </ul>
+                </div>
+                <div class="imageBox">
+                    <img src="./imgs/cat_image.png" alt="cat_image" class="image_animal">
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <ul class="redes">
+            <li><a href="#"><img class="rede_icon" src="./imgs/icon_facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img class="rede_icon"  src="./imgs/icon_intagram.png" alt="instagram"></a></li>
+            <li><a href="#"><img class="rede_icon"  src="./imgs/icon_whatsapp.png" alt="whatsapp"></a></li>
+        </ul>
+    </section>
+
+    <script src="./scripts/script.js"></script>
+
+</body>
+</html>
